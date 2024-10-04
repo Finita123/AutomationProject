@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  TestRishiherbals</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestRishiherbals</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 28 21:53:31 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>109 seconds (109017 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testpkg.Testsbasicafterlogin.verifyTabs()'><b>verifyTabs</b><br>Test class: testpkg.Testsbasicafterlogin</td>
+<td></td>
+<td>0</td>
+<td>testpkg.Testsbasicafterlogin@6e9a5ed8</td></tr>
+<tr>
+<td title='testpkg.Testalert.verifyWishlistItem()'><b>verifyWishlistItem</b><br>Test class: testpkg.Testalert</td>
+<td></td>
+<td>1</td>
+<td>testpkg.Testalert@6c284af</td></tr>
+<tr>
+<td title='testpkg.TestSuccessfullogin.productToCart()'><b>productToCart</b><br>Test class: testpkg.TestSuccessfullogin</td>
+<td></td>
+<td>5</td>
+<td>testpkg.TestSuccessfullogin@7e057f43</td></tr>
+<tr>
+<td title='testpkg.Testsecurity.verifyPrintCookies()'><b>verifyPrintCookies</b><br>Test class: testpkg.Testsecurity</td>
+<td></td>
+<td>0</td>
+<td>testpkg.Testsecurity@5890e879</td></tr>
+<tr>
+<td title='testpkg.Testsbasicafterlogin.verifyUnavailableSearch()'><b>verifyUnavailableSearch</b><br>Test class: testpkg.Testsbasicafterlogin</td>
+<td></td>
+<td>4</td>
+<td>testpkg.Testsbasicafterlogin@6e9a5ed8</td></tr>
+<tr>
+<td title='testpkg.TestReportgen.verifyCheckBocClick()'><b>verifyCheckBocClick</b><br>Test class: testpkg.TestReportgen</td>
+<td></td>
+<td>1</td>
+<td>testpkg.TestReportgen@6440112d</td></tr>
+<tr>
+<td title='testpkg.Testsbasicafterlogin.verifyTitle()'><b>verifyTitle</b><br>Test class: testpkg.Testsbasicafterlogin</td>
+<td></td>
+<td>0</td>
+<td>testpkg.Testsbasicafterlogin@6e9a5ed8</td></tr>
+<tr>
+<td title='testpkg.Testalert.verifyAlerthandling()'><b>verifyAlerthandling</b><br>Test class: testpkg.Testalert</td>
+<td></td>
+<td>0</td>
+<td>testpkg.Testalert@6c284af</td></tr>
+<tr>
+<td title='testpkg.TestReportgen.verifyTxtPrdctAvailability()'><b>verifyTxtPrdctAvailability</b><br>Test class: testpkg.TestReportgen</td>
+<td></td>
+<td>0</td>
+<td>testpkg.TestReportgen@6440112d</td></tr>
+<tr>
+<td title='testpkg.Testlogin.loginUsingCredentials()'><b>loginUsingCredentials</b><br>Test class: testpkg.Testlogin</td>
+<td></td>
+<td>10</td>
+<td>testpkg.Testlogin@1caa0244</td></tr>
+<tr>
+<td title='testpkg.Testlogin.validatingLogin()'><b>validatingLogin</b><br>Test class: testpkg.Testlogin</td>
+<td></td>
+<td>3</td>
+<td>testpkg.Testlogin@1caa0244</td></tr>
+<tr>
+<td title='testpkg.Testsbasicafterlogin.verifyEmptyCart()'><b>verifyEmptyCart</b><br>Test class: testpkg.Testsbasicafterlogin</td>
+<td></td>
+<td>0</td>
+<td>testpkg.Testsbasicafterlogin@6e9a5ed8</td></tr>
+<tr>
+<td title='testpkg.Testalert.verifyAddingWshlist()'><b>verifyAddingWshlist</b><br>Test class: testpkg.Testalert</td>
+<td></td>
+<td>3</td>
+<td>testpkg.Testalert@6c284af</td></tr>
+<tr>
+<td title='testpkg.TestSuccessfullogin.verifyFillForm()'><b>verifyFillForm</b><br>Test class: testpkg.TestSuccessfullogin</td>
+<td></td>
+<td>0</td>
+<td>testpkg.TestSuccessfullogin@7e057f43</td></tr>
+<tr>
+<td title='testpkg.Testsbasicafterlogin.verifyLogo()'><b>verifyLogo</b><br>Test class: testpkg.Testsbasicafterlogin</td>
+<td></td>
+<td>0</td>
+<td>testpkg.Testsbasicafterlogin@6e9a5ed8</td></tr>
+<tr>
+<td title='testpkg.Testsecurity.slcLogin()'><b>slcLogin</b><br>Test class: testpkg.Testsecurity</td>
+<td></td>
+<td>5</td>
+<td>testpkg.Testsecurity@5890e879</td></tr>
+<tr>
+<td title='testpkg.Testsbasicafterlogin.verifyDropDown()'><b>verifyDropDown</b><br>Test class: testpkg.Testsbasicafterlogin</td>
+<td></td>
+<td>1</td>
+<td>testpkg.Testsbasicafterlogin@6e9a5ed8</td></tr>
+<tr>
+<td title='testpkg.TestSuccessfullogin.verfiyByScrShot()'><b>verfiyByScrShot</b><br>Test class: testpkg.TestSuccessfullogin</td>
+<td></td>
+<td>0</td>
+<td>testpkg.TestSuccessfullogin@7e057f43</td></tr>
+<tr>
+<td title='testpkg.Testlogin.selectLogin()'><b>selectLogin</b><br>Test class: testpkg.Testlogin</td>
+<td></td>
+<td>2</td>
+<td>testpkg.Testlogin@1caa0244</td></tr>
+<tr>
+<td title='testpkg.Testsbasicafterlogin.verifySearchFunctionality()'><b>verifySearchFunctionality</b><br>Test class: testpkg.Testsbasicafterlogin</td>
+<td></td>
+<td>4</td>
+<td>testpkg.Testsbasicafterlogin@6e9a5ed8</td></tr>
+<tr>
+<td title='testpkg.TestSuccessfullogin.slcLogin()'><b>slcLogin</b><br>Test class: testpkg.TestSuccessfullogin</td>
+<td></td>
+<td>5</td>
+<td>testpkg.TestSuccessfullogin@7e057f43</td></tr>
+<tr>
+<td title='testpkg.TestSuccessfullogin.verifyCheckout()'><b>verifyCheckout</b><br>Test class: testpkg.TestSuccessfullogin</td>
+<td></td>
+<td>5</td>
+<td>testpkg.TestSuccessfullogin@7e057f43</td></tr>
+<tr>
+<td title='testpkg.TestReportgen.verifyPersonalTab()'><b>verifyPersonalTab</b><br>Test class: testpkg.TestReportgen</td>
+<td></td>
+<td>1</td>
+<td>testpkg.TestReportgen@6440112d</td></tr>
+</table><p>
+</body>
+</html>

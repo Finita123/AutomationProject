@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RishiHerbalsTestSuite">
+  <test thread-count="5" name="TestRishiherbals">
+    <classes>
+    	<class name="testpkg.Testlogin"/>
+    	<class name="testpkg.Testsbasicafterlogin"/>
+    	<class name="testpkg.TestSuccessfullogin"/>
+    	<class name="testpkg.Testalert"/>
+    	<class name="testpkg.Testsecurity"/>
+    	<class name="testpkg.TestReportgen"/>  
+    	
+    </classes>
+  </test> <!-- TestRishiherbals -->
+</suite> <!-- RishiHerbalsTestSuite -->

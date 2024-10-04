@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RishiHerbalsTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">RishiHerbalsTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RishiHerbalsTestSuite" class="navigator-link ">
+                    <span>C:\Users\LENOVO\eclipse-workspace\HerbalsMainProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RishiHerbalsTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RishiHerbalsTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RishiHerbalsTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RishiHerbalsTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RishiHerbalsTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RishiHerbalsTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RishiHerbalsTestSuite" class="hide-methods passed suite-RishiHerbalsTestSuite"> (hide)</a> <!-- hide-methods passed suite-RishiHerbalsTestSuite -->
+                      <a href="#" panel-name="suite-RishiHerbalsTestSuite" class="show-methods passed suite-RishiHerbalsTestSuite"> (show)</a> <!-- show-methods passed suite-RishiHerbalsTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RishiHerbalsTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testlogin" class="method navigator-link" hash-for-method="loginUsingCredentials">loginUsingCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestSuccessfullogin" class="method navigator-link" hash-for-method="productToCart">productToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testlogin" class="method navigator-link" hash-for-method="selectLogin">selectLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsecurity" class="method navigator-link" hash-for-method="slcLogin">slcLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestSuccessfullogin" class="method navigator-link" hash-for-method="slcLogin">slcLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testlogin" class="method navigator-link" hash-for-method="validatingLogin">validatingLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestSuccessfullogin" class="method navigator-link" hash-for-method="verfiyByScrShot">verfiyByScrShot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testalert" class="method navigator-link" hash-for-method="verifyAddingWshlist">verifyAddingWshlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testalert" class="method navigator-link" hash-for-method="verifyAlerthandling">verifyAlerthandling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestReportgen" class="method navigator-link" hash-for-method="verifyCheckBocClick">verifyCheckBocClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestSuccessfullogin" class="method navigator-link" hash-for-method="verifyCheckout">verifyCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsbasicafterlogin" class="method navigator-link" hash-for-method="verifyDropDown">verifyDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsbasicafterlogin" class="method navigator-link" hash-for-method="verifyEmptyCart">verifyEmptyCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestSuccessfullogin" class="method navigator-link" hash-for-method="verifyFillForm">verifyFillForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsbasicafterlogin" class="method navigator-link" hash-for-method="verifyLogo">verifyLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestReportgen" class="method navigator-link" hash-for-method="verifyPersonalTab">verifyPersonalTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsecurity" class="method navigator-link" hash-for-method="verifyPrintCookies">verifyPrintCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsbasicafterlogin" class="method navigator-link" hash-for-method="verifySearchFunctionality">verifySearchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsbasicafterlogin" class="method navigator-link" hash-for-method="verifyTabs">verifyTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsbasicafterlogin" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.TestReportgen" class="method navigator-link" hash-for-method="verifyTxtPrdctAvailability">verifyTxtPrdctAvailability</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testsbasicafterlogin" class="method navigator-link" hash-for-method="verifyUnavailableSearch">verifyUnavailableSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RishiHerbalsTestSuite" title="testpkg.Testalert" class="method navigator-link" hash-for-method="verifyWishlistItem">verifyWishlistItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RishiHerbalsTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RishiHerbalsTestSuite" class="panel RishiHerbalsTestSuite">
+          <div class="suite-RishiHerbalsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.Testsecurity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="slcLogin">
+                  </a> <!-- slcLogin -->
+                  <span class="method-name">slcLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrintCookies">
+                  </a> <!-- verifyPrintCookies -->
+                  <span class="method-name">verifyPrintCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RishiHerbalsTestSuite-class-passed -->
+          <div class="suite-RishiHerbalsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.Testalert</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddingWshlist">
+                  </a> <!-- verifyAddingWshlist -->
+                  <span class="method-name">verifyAddingWshlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlerthandling">
+                  </a> <!-- verifyAlerthandling -->
+                  <span class="method-name">verifyAlerthandling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWishlistItem">
+                  </a> <!-- verifyWishlistItem -->
+                  <span class="method-name">verifyWishlistItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RishiHerbalsTestSuite-class-passed -->
+          <div class="suite-RishiHerbalsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.Testlogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUsingCredentials">
+                  </a> <!-- loginUsingCredentials -->
+                  <span class="method-name">loginUsingCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLogin">
+                  </a> <!-- selectLogin -->
+                  <span class="method-name">selectLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingLogin">
+                  </a> <!-- validatingLogin -->
+                  <span class="method-name">validatingLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RishiHerbalsTestSuite-class-passed -->
+          <div class="suite-RishiHerbalsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.TestReportgen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckBocClick">
+                  </a> <!-- verifyCheckBocClick -->
+                  <span class="method-name">verifyCheckBocClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPersonalTab">
+                  </a> <!-- verifyPersonalTab -->
+                  <span class="method-name">verifyPersonalTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTxtPrdctAvailability">
+                  </a> <!-- verifyTxtPrdctAvailability -->
+                  <span class="method-name">verifyTxtPrdctAvailability</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RishiHerbalsTestSuite-class-passed -->
+          <div class="suite-RishiHerbalsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.Testsbasicafterlogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropDown">
+                  </a> <!-- verifyDropDown -->
+                  <span class="method-name">verifyDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyCart">
+                  </a> <!-- verifyEmptyCart -->
+                  <span class="method-name">verifyEmptyCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogo">
+                  </a> <!-- verifyLogo -->
+                  <span class="method-name">verifyLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFunctionality">
+                  </a> <!-- verifySearchFunctionality -->
+                  <span class="method-name">verifySearchFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTabs">
+                  </a> <!-- verifyTabs -->
+                  <span class="method-name">verifyTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnavailableSearch">
+                  </a> <!-- verifyUnavailableSearch -->
+                  <span class="method-name">verifyUnavailableSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RishiHerbalsTestSuite-class-passed -->
+          <div class="suite-RishiHerbalsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.TestSuccessfullogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productToCart">
+                  </a> <!-- productToCart -->
+                  <span class="method-name">productToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slcLogin">
+                  </a> <!-- slcLogin -->
+                  <span class="method-name">slcLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfiyByScrShot">
+                  </a> <!-- verfiyByScrShot -->
+                  <span class="method-name">verfiyByScrShot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckout">
+                  </a> <!-- verifyCheckout -->
+                  <span class="method-name">verifyCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFillForm">
+                  </a> <!-- verifyFillForm -->
+                  <span class="method-name">verifyFillForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RishiHerbalsTestSuite-class-passed -->
+        </div> <!-- panel RishiHerbalsTestSuite -->
+        <div panel-name="test-xml-RishiHerbalsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LENOVO\eclipse-workspace\HerbalsMainProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RishiHerbalsTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestRishiherbals&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testpkg.Testlogin&quot;/&gt;
+      &lt;class name=&quot;testpkg.Testsbasicafterlogin&quot;/&gt;
+      &lt;class name=&quot;testpkg.TestSuccessfullogin&quot;/&gt;
+      &lt;class name=&quot;testpkg.Testalert&quot;/&gt;
+      &lt;class name=&quot;testpkg.Testsecurity&quot;/&gt;
+      &lt;class name=&quot;testpkg.TestReportgen&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestRishiherbals --&gt;
+&lt;/suite&gt; &lt;!-- RishiHerbalsTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RishiHerbalsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RishiHerbalsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestRishiherbals (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RishiHerbalsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RishiHerbalsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RishiHerbalsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RishiHerbalsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RishiHerbalsTestSuite');
+function tableData_RishiHerbalsTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginUsingCredentials')
+data.setCell(0, 2, 'testpkg.Testlogin')
+data.setCell(0, 3, 10638);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'slcLogin')
+data.setCell(1, 2, 'testpkg.Testsecurity')
+data.setCell(1, 3, 5884);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'slcLogin')
+data.setCell(2, 2, 'testpkg.TestSuccessfullogin')
+data.setCell(2, 3, 5870);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'productToCart')
+data.setCell(3, 2, 'testpkg.TestSuccessfullogin')
+data.setCell(3, 3, 5444);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCheckout')
+data.setCell(4, 2, 'testpkg.TestSuccessfullogin')
+data.setCell(4, 3, 5005);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySearchFunctionality')
+data.setCell(5, 2, 'testpkg.Testsbasicafterlogin')
+data.setCell(5, 3, 4823);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyUnavailableSearch')
+data.setCell(6, 2, 'testpkg.Testsbasicafterlogin')
+data.setCell(6, 3, 4262);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatingLogin')
+data.setCell(7, 2, 'testpkg.Testlogin')
+data.setCell(7, 3, 3728);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyAddingWshlist')
+data.setCell(8, 2, 'testpkg.Testalert')
+data.setCell(8, 3, 3326);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectLogin')
+data.setCell(9, 2, 'testpkg.Testlogin')
+data.setCell(9, 3, 2490);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyDropDown')
+data.setCell(10, 2, 'testpkg.Testsbasicafterlogin')
+data.setCell(10, 3, 1802);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyWishlistItem')
+data.setCell(11, 2, 'testpkg.Testalert')
+data.setCell(11, 3, 1590);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyPersonalTab')
+data.setCell(12, 2, 'testpkg.TestReportgen')
+data.setCell(12, 3, 1378);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyCheckBocClick')
+data.setCell(13, 2, 'testpkg.TestReportgen')
+data.setCell(13, 3, 1084);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyFillForm')
+data.setCell(14, 2, 'testpkg.TestSuccessfullogin')
+data.setCell(14, 3, 426);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyPrintCookies')
+data.setCell(15, 2, 'testpkg.Testsecurity')
+data.setCell(15, 3, 366);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyTabs')
+data.setCell(16, 2, 'testpkg.Testsbasicafterlogin')
+data.setCell(16, 3, 345);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyEmptyCart')
+data.setCell(17, 2, 'testpkg.Testsbasicafterlogin')
+data.setCell(17, 3, 299);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyAlerthandling')
+data.setCell(18, 2, 'testpkg.Testalert')
+data.setCell(18, 3, 204);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verfiyByScrShot')
+data.setCell(19, 2, 'testpkg.TestSuccessfullogin')
+data.setCell(19, 3, 164);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyLogo')
+data.setCell(20, 2, 'testpkg.Testsbasicafterlogin')
+data.setCell(20, 3, 73);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyTxtPrdctAvailability')
+data.setCell(21, 2, 'testpkg.TestReportgen')
+data.setCell(21, 3, 66);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyTitle')
+data.setCell(22, 2, 'testpkg.Testsbasicafterlogin')
+data.setCell(22, 3, 45);
+window.suiteTableData['RishiHerbalsTestSuite']= { tableData: data, tableDiv: 'times-div-RishiHerbalsTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <div id="times-div-RishiHerbalsTestSuite">
+              </div> <!-- times-div-RishiHerbalsTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RishiHerbalsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RishiHerbalsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RishiHerbalsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.Testsecurity</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.Testalert</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.TestReportgen</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.Testsbasicafterlogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.TestSuccessfullogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RishiHerbalsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.TestReportgen</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.Testlogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">487 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selectLogin</span>
+                <span class="method-start">9523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginUsingCredentials</span>
+                <span class="method-start">12044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatingLogin</span>
+                <span class="method-start">22685 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.Testsbasicafterlogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">35482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogo</span>
+                <span class="method-start">35557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTabs</span>
+                <span class="method-start">35642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyCart</span>
+                <span class="method-start">35991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFunctionality</span>
+                <span class="method-start">36296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUnavailableSearch</span>
+                <span class="method-start">41125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDropDown</span>
+                <span class="method-start">45387 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.TestSuccessfullogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47189 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">slcLogin</span>
+                <span class="method-start">53709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productToCart</span>
+                <span class="method-start">59587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckout</span>
+                <span class="method-start">65038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFillForm</span>
+                <span class="method-start">70046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verfiyByScrShot</span>
+                <span class="method-start">70475 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.Testalert</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70647 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddingWshlist</span>
+                <span class="method-start">78777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWishlistItem</span>
+                <span class="method-start">82106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAlerthandling</span>
+                <span class="method-start">83701 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.Testsecurity</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83912 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">slcLogin</span>
+                <span class="method-start">91359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPrintCookies</span>
+                <span class="method-start">97253 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.TestReportgen</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97634 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyPersonalTab</span>
+                <span class="method-start">106107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyPersonalTab status=SUCCESS method=TestReportgen.verifyPersonalTab()[pri:1, in...)</span>
+                <span class="method-start">107490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTxtPrdctAvailability</span>
+                <span class="method-start">107536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckBocClick</span>
+                <span class="method-start">107607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyTxtPrdctAvailability status=SUCCESS method=TestReportgen.verifyTxtPrdctAvaila...)</span>
+                <span class="method-start">107607 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose([TestResult name=verifyCheckBocClick status=SUCCESS method=TestReportgen.verifyCheckBocClick()[pri:3...)</span>
+                <span class="method-start">108704 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.Testlogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108710 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

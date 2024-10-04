@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-28T21:53:31 IST" name="RishiHerbalsTestSuite" finished-at="2024-09-28T21:55:20 IST" duration-ms="109017">
+    <groups>
+    </groups>
+    <test started-at="2024-09-28T21:53:31 IST" name="TestRishiherbals" finished-at="2024-09-28T21:55:20 IST" duration-ms="109017">
+      <class name="testpkg.Testsecurity">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.Testsecurity@5890e879]" started-at="2024-09-28T21:54:55 IST" name="setUp" finished-at="2024-09-28T21:55:03 IST" duration-ms="7444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="slcLogin()[pri:1, instance:testpkg.Testsecurity@5890e879]" started-at="2024-09-28T21:55:03 IST" name="slcLogin" finished-at="2024-09-28T21:55:08 IST" duration-ms="5884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slcLogin -->
+        <test-method signature="verifyPrintCookies()[pri:2, instance:testpkg.Testsecurity@5890e879]" started-at="2024-09-28T21:55:08 IST" name="verifyPrintCookies" finished-at="2024-09-28T21:55:09 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrintCookies -->
+      </class> <!-- testpkg.Testsecurity -->
+      <class name="testpkg.TestReportgen">
+        <test-method is-config="true" signature="beforeSetUp()[pri:0, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:53:31 IST" name="beforeSetUp" finished-at="2024-09-28T21:53:32 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:55:09 IST" name="setUp" finished-at="2024-09-28T21:55:17 IST" duration-ms="8473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPersonalTab()[pri:1, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:55:17 IST" name="verifyPersonalTab" finished-at="2024-09-28T21:55:19 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPersonalTab -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:55:19 IST" name="browserClose" finished-at="2024-09-28T21:55:19 IST" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPersonalTab status=SUCCESS method=TestReportgen.verifyPersonalTab()[pri:1, instance:testpkg.TestReportgen@6440112d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method signature="verifyTxtPrdctAvailability()[pri:2, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:55:19 IST" name="verifyTxtPrdctAvailability" finished-at="2024-09-28T21:55:19 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTxtPrdctAvailability -->
+        <test-method signature="verifyCheckBocClick()[pri:3, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:55:19 IST" name="verifyCheckBocClick" finished-at="2024-09-28T21:55:20 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBocClick -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:55:19 IST" name="browserClose" finished-at="2024-09-28T21:55:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTxtPrdctAvailability status=SUCCESS method=TestReportgen.verifyTxtPrdctAvailability()[pri:2, instance:testpkg.TestReportgen@6440112d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestReportgen@6440112d]" started-at="2024-09-28T21:55:20 IST" name="browserClose" finished-at="2024-09-28T21:55:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckBocClick status=SUCCESS method=TestReportgen.verifyCheckBocClick()[pri:3, instance:testpkg.TestReportgen@6440112d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testpkg.TestReportgen -->
+      <class name="testpkg.TestSuccessfullogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.TestSuccessfullogin@7e057f43]" started-at="2024-09-28T21:54:18 IST" name="setUp" finished-at="2024-09-28T21:54:25 IST" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="slcLogin()[pri:1, instance:testpkg.TestSuccessfullogin@7e057f43]" started-at="2024-09-28T21:54:25 IST" name="slcLogin" finished-at="2024-09-28T21:54:31 IST" duration-ms="5870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slcLogin -->
+        <test-method signature="productToCart()[pri:2, instance:testpkg.TestSuccessfullogin@7e057f43]" started-at="2024-09-28T21:54:31 IST" name="productToCart" finished-at="2024-09-28T21:54:36 IST" duration-ms="5444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productToCart -->
+        <test-method signature="verifyCheckout()[pri:3, instance:testpkg.TestSuccessfullogin@7e057f43]" started-at="2024-09-28T21:54:36 IST" name="verifyCheckout" finished-at="2024-09-28T21:54:41 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method signature="verifyFillForm()[pri:4, instance:testpkg.TestSuccessfullogin@7e057f43]" started-at="2024-09-28T21:54:41 IST" name="verifyFillForm" finished-at="2024-09-28T21:54:42 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFillForm -->
+        <test-method signature="verfiyByScrShot()[pri:5, instance:testpkg.TestSuccessfullogin@7e057f43]" started-at="2024-09-28T21:54:42 IST" name="verfiyByScrShot" finished-at="2024-09-28T21:54:42 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyByScrShot -->
+      </class> <!-- testpkg.TestSuccessfullogin -->
+      <class name="testpkg.Testsbasicafterlogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:53:58 IST" name="setUp" finished-at="2024-09-28T21:54:07 IST" duration-ms="9060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:1, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:54:07 IST" name="verifyTitle" finished-at="2024-09-28T21:54:07 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyLogo()[pri:2, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:54:07 IST" name="verifyLogo" finished-at="2024-09-28T21:54:07 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="verifyTabs()[pri:3, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:54:07 IST" name="verifyTabs" finished-at="2024-09-28T21:54:07 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTabs -->
+        <test-method signature="verifyEmptyCart()[pri:4, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:54:07 IST" name="verifyEmptyCart" finished-at="2024-09-28T21:54:07 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCart -->
+        <test-method signature="verifySearchFunctionality()[pri:5, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:54:07 IST" name="verifySearchFunctionality" finished-at="2024-09-28T21:54:12 IST" duration-ms="4823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method signature="verifyUnavailableSearch()[pri:6, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:54:12 IST" name="verifyUnavailableSearch" finished-at="2024-09-28T21:54:17 IST" duration-ms="4262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnavailableSearch -->
+        <test-method signature="verifyDropDown()[pri:7, instance:testpkg.Testsbasicafterlogin@6e9a5ed8]" started-at="2024-09-28T21:54:17 IST" name="verifyDropDown" finished-at="2024-09-28T21:54:18 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropDown -->
+      </class> <!-- testpkg.Testsbasicafterlogin -->
+      <class name="testpkg.Testalert">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.Testalert@6c284af]" started-at="2024-09-28T21:54:42 IST" name="setUp" finished-at="2024-09-28T21:54:50 IST" duration-ms="8130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddingWshlist()[pri:1, instance:testpkg.Testalert@6c284af]" started-at="2024-09-28T21:54:50 IST" name="verifyAddingWshlist" finished-at="2024-09-28T21:54:53 IST" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingWshlist -->
+        <test-method signature="verifyWishlistItem()[pri:2, instance:testpkg.Testalert@6c284af]" started-at="2024-09-28T21:54:53 IST" name="verifyWishlistItem" finished-at="2024-09-28T21:54:55 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWishlistItem -->
+        <test-method signature="verifyAlerthandling()[pri:3, instance:testpkg.Testalert@6c284af]" started-at="2024-09-28T21:54:55 IST" name="verifyAlerthandling" finished-at="2024-09-28T21:54:55 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlerthandling -->
+      </class> <!-- testpkg.Testalert -->
+      <class name="testpkg.Testlogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.Testlogin@1caa0244]" started-at="2024-09-28T21:53:32 IST" name="setUp" finished-at="2024-09-28T21:53:41 IST" duration-ms="9005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectLogin()[pri:1, instance:testpkg.Testlogin@1caa0244]" started-at="2024-09-28T21:53:41 IST" name="selectLogin" finished-at="2024-09-28T21:53:43 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLogin -->
+        <test-method signature="loginUsingCredentials()[pri:2, instance:testpkg.Testlogin@1caa0244]" started-at="2024-09-28T21:53:43 IST" name="loginUsingCredentials" finished-at="2024-09-28T21:53:54 IST" duration-ms="10638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingCredentials -->
+        <test-method signature="validatingLogin()[pri:3, instance:testpkg.Testlogin@1caa0244]" started-at="2024-09-28T21:53:54 IST" name="validatingLogin" finished-at="2024-09-28T21:53:58 IST" duration-ms="3728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpkg.Testlogin@1caa0244]" started-at="2024-09-28T21:55:20 IST" name="tearDown" finished-at="2024-09-28T21:55:20 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpkg.Testlogin -->
+    </test> <!-- TestRishiherbals -->
+  </suite> <!-- RishiHerbalsTestSuite -->
+</testng-results>

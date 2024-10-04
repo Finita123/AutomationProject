@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mainproject]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Rishiherbals(failed)">
+    <classes>
+      <class name="testpkg.Testlogin">
+        <methods>
+          <include name="validatingLogin"/>
+          <include name="setUp"/>
+          <include name="loginUsingCredentials"/>
+        </methods>
+      </class> <!-- testpkg.Testlogin -->
+      <class name="testpkg.Testsbasicafterlogin">
+        <methods>
+          <include name="verifyDropDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testpkg.Testsbasicafterlogin -->
+    </classes>
+  </test> <!-- Rishiherbals(failed) -->
+</suite> <!-- Failed suite [Mainproject] -->
